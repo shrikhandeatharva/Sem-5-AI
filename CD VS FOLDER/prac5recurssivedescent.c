@@ -77,8 +77,22 @@ void T(char **input) {
         error();
     }
 }
-
 void error() {
     printf("Error: Invalid string format.\n");
     exit(1);
 }
+
+
+
+/*THEORY: A recursive descent parser is a top-down parsing technique where a parser tree is built from top and constructed 
+down to leaves this type of parser starts with highest level of grammar and recursively. expands non-terminals until a terminal Symbol is reached-
+
+To implement this grammar using recursive descent Parser, we need to follow steps to implement parser -
+
+1) Analyze grammar, identify terminals, non-terminals production voles.
+
+2) Write function to parse each non-terminal
+
+3) Use tokenizers to convert input string into list of tokens.
+
+4) Pass list tokens as input, function should return whether string can be derived from grammar or not.*/
