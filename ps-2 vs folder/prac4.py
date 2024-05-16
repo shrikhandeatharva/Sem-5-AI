@@ -30,3 +30,16 @@ square=True,annot=True
 )
 
 plt.show()
+
+
+# Correlation: Correlation measures the strength and direction of the linear relationship between two variables, 
+# with values ranging from -1 to 1, where 1 indicates a perfect positive correlation, -1 a perfect negative correlation, and 0 no correlation.
+
+# Covariance: Covariance measures the degree to which two variables change together, with positive values 
+# indicating a positive relationship and negative values indicating an inverse relationship, but its scale is not standardized.
+
+# Correlation matrix: A correlation matrix displays the pairwise correlation coefficients between variables 
+# in a dataset, providing a comprehensive view of their relationships and aiding in feature selection or dimensionality reduction.
+
+# ANOVA (Analysis of Variance): ANOVA tests the equality of means across two or more groups by comparing the 
+# variance between groups to the variance within groups. It helps determine whether there are significant differences in means among the groups.
