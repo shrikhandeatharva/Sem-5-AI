@@ -51,13 +51,13 @@ print("\nAggregated information for iris dataset:")
 print(aggregated_data)
 
 
-/*Basic descriptive statistics, including measures like mean, median, mode, standard deviation, and range, 
-provide fundamental insights into the distribution and characteristics of data. Pandas' describe() function 
-offers a concise summary of these statistics for each numerical column in a DataFrame, while the str attribute 
-provides essential information about the data types of each column. Quartiles and the quantile() function allow 
-for the exploration of data variability by dividing datasets into four equal parts and calculating specific quantiles. 
-Subsetting involves selecting relevant portions of a dataset based on specific criteria, facilitated by pandas' intuitive 
-methods such as boolean indexing, slicing, and querying. Aggregate functions like groupby() and sum(), mean(), or count() 
-enable the calculation of summary statistics for subsets of data based on grouping variables, supporting in-depth analysis 
-and insights derivation from grouped data structures. These tools collectively form the foundation of exploratory data analysis, 
-aiding in understanding data distribution, variability, and underlying patterns.*/
+# Basic descriptive statistics, including measures like mean, median, mode, standard deviation, and range, 
+# provide fundamental insights into the distribution and characteristics of data. Pandas' describe() function 
+# offers a concise summary of these statistics for each numerical column in a DataFrame, while the str attribute 
+# provides essential information about the data types of each column. Quartiles and the quantile() function allow 
+# for the exploration of data variability by dividing datasets into four equal parts and calculating specific quantiles. 
+# Subsetting involves selecting relevant portions of a dataset based on specific criteria, facilitated by pandas' intuitive 
+# methods such as boolean indexing, slicing, and querying. Aggregate functions like groupby() and sum(), mean(), or count() 
+# enable the calculation of summary statistics for subsets of data based on grouping variables, supporting in-depth analysis 
+# and insights derivation from grouped data structures. These tools collectively form the foundation of exploratory data analysis, 
+# aiding in understanding data distribution, variability, and underlying patterns.
