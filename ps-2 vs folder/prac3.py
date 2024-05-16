@@ -49,3 +49,18 @@ plt.title('Pie Chart of Embarked Locations in Titanic Dataset')
 plt.axis('equal')
 plt.show()
 plt.pause(1)
+
+
+# Box plot: Box plots summarize the distribution of data, highlighting median, quartiles, and outliers.
+
+# Scatter plot: Scatter plots reveal relationships between two variables by displaying individual data points.
+
+# Histogram: Histograms depict the frequency distribution of a single variable, offering insights into its distribution and identifying patterns or outliers.
+
+# Bar chart: Bar charts visually compare categorical data using rectangular bars to represent each category's frequency or value.
+
+# Pie chart: Pie charts illustrate categorical data proportions as slices of a circle, showing the relative contribution of each category to the whole.
+
+# Outliers: Outliers are data points deviating significantly from the rest, often indicating anomalies or interesting patterns.
+
+# Data visualization: Data visualization is the graphical representation of data to convey insights efficiently, aiding exploration, analysis, and communication.
