@@ -31,3 +31,17 @@ print(correct_predictions)
 
 print("\nIncorrect Predictions:")
 print(incorrect_predictions)
+
+
+
+# K Nearest Neighbors (KNN) is a simple yet powerful supervised learning algorithm used for classification and regression tasks. 
+# It classifies new data points based on the majority class of their nearest neighbors in the feature space, making it 
+# non-parametric and robust to complex decision boundaries. In KNN, the algorithm assigns a class label to a new data 
+# point by selecting the most common class among its k nearest neighbors.
+
+# Algorithm:
+
+# Choose the number of neighbors (k) and a distance metric.
+# For each new data point, calculate the distance to all existing data points.
+# Select the k nearest neighbors based on the calculated distances.
+# Assign the class label by majority vote among the k neighbors (for classification) or calculate the average (for regression).
