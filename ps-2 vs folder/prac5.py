@@ -21,3 +21,19 @@ if p_value > 0.05:
  print("Model is fit.")
 else:
  print("Model is unfit.") 
+
+
+# Regression model: Regression models predict a continuous outcome variable based on one or more predictor variables, 
+# aiming to capture the relationship between them and make accurate predictions.
+
+# Logistic regression: Logistic regression is a type of regression used for binary classification problems, predicting 
+# the probability of a binary outcome (0 or 1) based on one or more predictor variables, and is widely used in fields such as medicine, finance, and marketing.
+
+# Implementation in Python: Logistic regression can be implemented in Python using libraries like scikit-learn or statsmodels. 
+# With scikit-learn, you can create and fit logistic regression models using the LogisticRegression class, specifying the desired 
+# parameters and input data, making it accessible for both beginners and experienced users.
+
+
+
+
+
