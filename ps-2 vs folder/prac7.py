@@ -45,3 +45,16 @@ print(f"\nclassification Accuracy: {accuracy:.2f}")
 # print(data_description)
 # accuracy = accuracy_score(y_test, y_pred)
 # print("\nClassification Accuracy:", accuracy)
+
+
+# Classification models are predictive models used to categorize input data into predefined classes or 
+# labels based on their features. These models learn patterns from labeled training data to make predictions 
+# on new, unlabeled data. Key concepts include the decision boundary, which separates different classes in the 
+# feature space, and the class probabilities, which indicate the likelihood of each class assignment. 
+# Common algorithms for classification include logistic regression, decision trees, support vector machines (SVM), 
+# and neural networks. Evaluation of classification models involves metrics such as accuracy, 
+# precision, recall, F1-score, and area under the receiver operating characteristic (ROC) curve, which assess 
+# the model's performance in terms of prediction accuracy, class imbalance, and trade-offs between true positive and false positive rates.
+# Support Vector Machines (SVM) are powerful supervised learning models used for classification and regression tasks. 
+# They work by finding the hyperplane that best separates different classes in the feature space, maximizing the 
+# margin between classes to achieve robust generalization to unseen data.
