@@ -53,3 +53,20 @@ import pandas
 df = pandas.read_excel('D:\\GCOEN SEM 6\\PS-2 LAB\\files\\cars.xlsx', nrows=10)
 print("Contents of excel sheet : ")
 print(df)
+
+
+# In Python, pandas simplifies data reading and writing tasks. With functions like read_csv() and 
+# to_csv(), it's easy to load and export data in various formats such as CSV, Excel, SQL databases, 
+# and JSON. This streamlined process makes pandas a popular choice for efficient data manipulation 
+# and analysis in Python.
+# CSV (Comma-Separated Values) files organize tabular data with each row representing a record and 
+# each column a field, making them ideal for structured data exchange. .txt (text) files, on the 
+# other hand, are plain text files used for storing unstructured textual information, suitable for 
+# notes, logs, or configurations. While CSV files excel at organizing structured data, .txt files offer 
+# versatility for storing any text-based content.
+
+
+
+
+
+
