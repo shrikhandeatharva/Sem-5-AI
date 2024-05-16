@@ -33,3 +33,13 @@ print("R-squared:", r_squared)
 # Interpret the coefficients
 coefficients = pd.DataFrame({'Variable': selected_columns, 'Coefficient': model.coef_})
 print(coefficients)
+
+
+# Multiple regression models extend simple linear regression to predict an outcome variable based on two or 
+# more predictor variables. Key concepts include the coefficient estimates, which represent the strength and 
+# direction of the relationship between each predictor variable and the outcome, and the intercept, which is 
+# the predicted value of the outcome when all predictor variables are zero. Assumptions of multiple regression 
+# include linearity, independence of errors, homoscedasticity (constant variance of errors), and normality of errors. 
+# Evaluation metrics for multiple regression models typically include mean squared error (MSE), which measures the average 
+# squared difference between predicted and actual values, and R-squared, which quantifies the proportion of variance in 
+# the outcome variable explained by the predictor variables, providing insights into the model's goodness of fit and predictive performance.
