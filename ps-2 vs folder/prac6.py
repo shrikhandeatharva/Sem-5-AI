@@ -4,11 +4,11 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Specify the file path using raw string literal
-file_path = r'D:\GCOEN SEM 6\PS-2 LAB\ps-2 vs folder\US  E-commerce records 2020.csv'
+# file_path = r'D:\GCOEN SEM 6\PS-2 LAB\ps-2 vs folder\US  E-commerce records 2020.csv'
 
 # Load the dataset with 'latin1' encoding
-data = pd.read_csv(file_path, encoding='latin1')
-
+# data = pd.read_csv(file_path, encoding='latin1')
+data = pd.read_csv('US  E-commerce records 2020.csv', encoding='latin1')
 # Selecting relevant columns for the analysis
 selected_columns = ['Quantity', 'Discount', 'Profit']  # Independent variables
 X = data[selected_columns]
