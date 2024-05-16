@@ -1,3 +1,4 @@
+# CODE(A)
 import requests
 import pandas as pd
 
@@ -47,7 +48,7 @@ write_data_to_file(combined_data, output_path)
 print(f"Combined data written to: {output_path}")
 
 
-
+# CODE(B)
 import pandas
 df = pandas.read_excel('D:\\GCOEN SEM 6\\PS-2 LAB\\files\\cars.xlsx', nrows=10)
 print("Contents of excel sheet : ")
